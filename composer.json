@@ -1,0 +1,9 @@
+{
+    "name": "sara/mvc",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "require": {}
+}
