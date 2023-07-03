@@ -1,27 +1,17 @@
 <?php
 namespace app\controllers;
-
+use core\App;
 class PageController{
+    public function home()
+    {
+        return view('index');
+    }
     public function about()
     {
-        $articles =[
-            [
-            'title' =>'About',
-            'description' =>'description',
-            'url' =>'url'
-        ],
-
-        [
-
-
-            'title' =>'About2',
-            'description' =>'description2',
-            'url' =>'url2'
-
-        ],
-        ];
-
-        return view('about',compact('articles'));
-
+        return view('about');
+    }
+    public function contact()
+    {
+        return view('contact');
     }
 }

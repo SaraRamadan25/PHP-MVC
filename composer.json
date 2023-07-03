@@ -1,9 +1,10 @@
 {
-    "name": "sara/mvc",
     "autoload": {
         "classmap": [
             "./"
         ]
     },
-    "require": {}
+  "require": {
+    "ext-pdo": "*"
+  }
 }

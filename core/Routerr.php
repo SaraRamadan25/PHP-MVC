@@ -1,17 +1,12 @@
 <?php
 namespace core;
 
-use app\controllers\PageController;
 use Exception;
 
 class Routerr{
     protected $routes=[
-        'get'=>[
-
-        ],
-        'post'=>[
-
-        ]
+        'get'=>[],
+        'post'=>[]
     ];
     public static function load($file){
         $router = new static();
